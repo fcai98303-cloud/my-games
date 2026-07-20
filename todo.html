@@ -2,6 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的今日待办清单</title>
     <style>
     /* 1. 深邃电竞感暗色渐变大背景 */
@@ -129,6 +130,49 @@
             color: white;
             transform: scale(1.05);
         }
+        /* ---------------- 手机端专属响应式样式 ---------------- */
+@media (max-width: 600px) {
+    /* 1. 缩小标题间距 */
+    h2 {
+        font-size: 24px !important;
+        margin-top: 15px !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* 2. 让整个待办事项大盒子在手机上宽度自适应，两边留出小边距 */
+    .todo-box {
+        width: 92% !important;
+        max-width: 360px !important;
+        padding: 15px !important;
+        margin: 10px auto !important;
+    }
+
+    /* 3. 关键：把输入框和“添加”按钮改成横向比例排列，防止按钮被挤到下一行 */
+    .input-section {
+        display: flex !important;
+        gap: 8px !important;
+    }
+    #taskInput {
+        flex: 1 !important; /* 让输入框自动撑满左侧剩余空间 */
+        width: auto !important;
+        padding: 10px !important;
+        font-size: 14px !important;
+    }
+    .todo-box button {
+        padding: 10px 15px !important;
+        font-size: 14px !important;
+        white-space: nowrap !important; /* 防止按钮文字在手机上变成两行 */
+    }
+
+    /* 4. 让任务列表的每一行在手机上更紧凑 */
+    ul {
+        padding-left: 0 !important;
+    }
+    li {
+        padding: 10px !important;
+        font-size: 14px !important;
+    }
+}
     </style>
 </head>
 <body>
