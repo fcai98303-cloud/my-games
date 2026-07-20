@@ -1,0 +1,1828 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+
+      
+  
+      <link rel="preload" href="/media/js/bootstrap.bundle.min.js" as="script">
+      <link rel="preload" href="/media/js/external.js" as="script">
+      <link rel="preload" href="/media/css/external.css" as="style">
+      <link rel="preload" href="/media/css/bootstrap-dark-5-1.1.3.min.css" as="style">
+      <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+      <link rel="preconnect" href="https://config.playwire.com" crossorigin>
+      <link rel="preconnect" href="https://cdn.intergi.com" crossorigin>
+      <link rel="preconnect" href="https://cdn.intergient.com" crossorigin>
+      <link rel="preconnect" href="https://securepubads.g.doubleclick.net" crossorigin>
+      <link rel="preconnect" href="https://cdn.playwire.com" crossorigin>
+      <link rel="preconnect" href="https://cdn.video.playwire.com" crossorigin>
+      <link rel="preconnect" href="https://z.moatads.com" crossorigin>
+      
+  <link rel="preload" href="/media/images/transparent_button_small_sprite.png" as="image">
+  <link rel="preload" href="/media/images/transparent_button_small_shadow.png" as="image">
+
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-M29CQ4QLX7"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-M29CQ4QLX7');
+      </script>
+
+      <title>
+  
+    Myinstants | The largest instant sound buttons website in India!
+  
+</title>
+      
+  <link rel="canonical" href="https://www.myinstants.com/en/index/in/" />
+
+      
+  <meta name="description" content="Myinstants is where you discover funny instant sound buttons from India. HAVE FUN!" />
+  <meta property="og:title" content="Myinstants - Trending Funny Sounds of India"/>
+  <meta property="og:description" content="Click here to play the sounds" />
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://www.myinstants.com/en/index/in/"/>
+  <meta property="og:image" content="https://www.myinstants.com/media/images/myinstants-opengraph-v4.jpg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="1200"/>
+  <meta property="og:image" content="https://www.myinstants.com/media/images/myinstants-opengraph-whatsapp-v1.jpg"/>
+  <meta property="og:image:width" content="400"/>
+  <meta property="og:image:height" content="400"/>
+  <meta property="og:site_name" content="myinstants"/>
+  <meta property="fb:app_id" content="429381653766621" />
+  <meta property="fb:admins" content="100000227055635" />
+
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@myinstants"/>
+  <meta name="twitter:title" content="Myinstants - Trending Funny Sounds of India"/>
+  <meta name="twitter:description" content="Click here to play the sounds"/>
+  <meta name="twitter:image" content="https://www.myinstants.com/media/images/myinstants-opengraph-v4.jpg"/>
+
+      <meta name="keywords" content="soundboard, sound buttons, sound board, myinstants, my instants, instant button, instant buttons, funny sounds, funny gifs, internet memes, viral sounds, meme sounds" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Myinstants">
+      <meta name="color-scheme" content="light dark">
+
+      
+        
+        
+            <link rel="alternate" hreflang="en" href="https://www.myinstants.com/en/index/in/" />
+        
+            <link rel="alternate" hreflang="de" href="https://www.myinstants.com/de/index/in/" />
+        
+            <link rel="alternate" hreflang="pt" href="https://www.myinstants.com/pt/index/in/" />
+        
+            <link rel="alternate" hreflang="es" href="https://www.myinstants.com/es/index/in/" />
+        
+            <link rel="alternate" hreflang="fr" href="https://www.myinstants.com/fr/index/in/" />
+        
+            <link rel="alternate" hreflang="nl" href="https://www.myinstants.com/nl/index/in/" />
+        
+            <link rel="alternate" hreflang="hi" href="https://www.myinstants.com/hi/index/in/" />
+        
+            <link rel="alternate" hreflang="it" href="https://www.myinstants.com/it/index/in/" />
+        
+            <link rel="alternate" hreflang="ja" href="https://www.myinstants.com/ja/index/in/" />
+        
+            <link rel="alternate" hreflang="ko" href="https://www.myinstants.com/ko/index/in/" />
+        
+            <link rel="alternate" hreflang="ru" href="https://www.myinstants.com/ru/index/in/" />
+        
+      
+          
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <meta name="apple-mobile-web-app-title" content="Myinstants">
+      <meta name="google-play-app" content="app-id=com.myinstants.epic">
+      <link rel="apple-touch-icon" sizes="57x57" href="/media/apple-touch-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="/media/apple-touch-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="/media/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="/media/apple-touch-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="/media/apple-touch-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="/media/apple-touch-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="/media/apple-touch-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/media/apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="/media/apple-touch-icon-180x180.png">
+      <link rel="icon" type="image/png" href="/media/favicon-32x32.png" sizes="32x32">
+      <link rel="icon" type="image/png" href="/media/android-chrome-192x192.png" sizes="192x192">
+      <link rel="icon" type="image/png" href="/media/favicon-96x96.png" sizes="96x96">
+      <link rel="icon" type="image/png" href="/media/favicon-16x16.png" sizes="16x16">
+      <link rel="manifest" href="/media/manifest.json">
+      <link rel="mask-icon" href="/media/safari-pinned-tab.svg">
+      <meta name="msapplication-TileColor" content="#f44336">
+      <meta name="msapplication-TileImage" content="/media/mstile-144x144.png">
+      <meta name="theme-color" content="#d32f2f">
+      <meta name="exoclick-site-verification" content="8c9c98d9de64ecb0259e88e870884d1e">
+      <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/fggacdedkdoacbemcilniodecinpfkgi">
+
+      
+      <link rel="stylesheet" href="/media/css/bootstrap-dark-5-1.1.3.min.css" />
+      <link rel="stylesheet" href="/media/css/external.css" />
+      
+
+      <script async src="/media/js/external.js"></script>
+
+      
+
+      
+        <script>
+          window.ramp = window.ramp || {};
+          window.ramp.que = window.ramp.que || [];
+        </script>
+        <script async src="//cdn.intergient.com/1025048/74530/ramp_config.js"></script>
+        <script>
+            window._pwGA4PageviewId = ''.concat(Date.now());
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = window.gtag || function () { 
+              dataLayer.push(arguments);
+            };
+            gtag('js', new Date());
+            gtag('config', 'G-B5KMP1B2M4', { 'send_page_view': false });
+            gtag(
+              'event',
+              'ramp_js',
+              {
+                'send_to': 'G-B5KMP1B2M4',
+                'pageview_id': window._pwGA4PageviewId
+              }
+            );
+        </script>
+      
+
+      
+      
+
+  </head>
+
+  <body>
+    
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-bar">
+        <div class="container-fluid justify-content-between flex-row">
+
+          <div class="my-1">
+            <button class="navbar-toggler" style="border:none; padding: 0;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span><img src="/media/images/icons/menu.svg" width="28" height="28" alt="Open side menu"></span>
+            </button>
+            <a id="brand" class="navbar-brand ms-3" href="/">Myinstants</a>
+          </div>
+
+          <form id="searchbar" class="nav-item search-form flex-fill flex-md-grow-0 mx-3 d-none d-md-flex" role="search" method="get" action="/en/search/">
+            <div class="input-group" style="position: relative">
+              <input class="form-control bg-white text-dark" style="border-radius: 20px 20px 20px 20px;  border-style: none; padding-left: 38px" placeholder="Search" minlength="2" type="search" name="name" required autofocus>
+              <img class="input-group-append" src="/media/images/icons/search-dark.svg" alt="Search icon">
+            </div>
+          </form>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="/" class="nav-link text-white">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="/en/recent/" class="nav-link text-white">Just added</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="categoryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
+                <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
+                  
+                  <li><a href="/en/categories/anime%20&amp;%20manga/" class="dropdown-item">Anime &amp; Manga</a></li>
+                  
+                  <li><a href="/en/categories/games/" class="dropdown-item">Games</a></li>
+                  
+                  <li><a href="/en/categories/memes/" class="dropdown-item">Memes</a></li>
+                  
+                  <li><a href="/en/categories/movies/" class="dropdown-item">Movies</a></li>
+                  
+                  <li><a href="/en/categories/music/" class="dropdown-item">Music</a></li>
+                  
+                  <li><a href="/en/categories/politics/" class="dropdown-item">Politics</a></li>
+                  
+                  <li><a href="/en/categories/pranks/" class="dropdown-item">Pranks</a></li>
+                  
+                  <li><a href="/en/categories/reactions/" class="dropdown-item">Reactions</a></li>
+                  
+                  <li><a href="/en/categories/sound%20effects/" class="dropdown-item">Sound Effects</a></li>
+                  
+                  <li><a href="/en/categories/sports/" class="dropdown-item">Sports</a></li>
+                  
+                  <li><a href="/en/categories/television/" class="dropdown-item">Television</a></li>
+                  
+                  <li><a href="/en/categories/tiktok%20trends/" class="dropdown-item">Tiktok Trends</a></li>
+                  
+                  <li><a href="/en/categories/viral/" class="dropdown-item">Viral</a></li>
+                  
+                  <li><a href="/en/categories/whatsapp%20audios/" class="dropdown-item">Whatsapp Audios</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item"><a href="/en/new/" class="nav-link text-white">Upload</a></li>
+              <li id="login-dropdown" class="nav-item dropdown me-2">
+                <a href="/en/favorites/" class="nav-link text-white" id="nav-login" role="button" aria-expanded="false"><img src="/media/images/icons/account.svg" alt="User account icon" class="nav-icon-left" width="24" height="24">Login</a>
+                <ul class="dropdown-menu" aria-labelledby="nav-login">
+                  <li><a class="dropdown-item" href="/en/favorites/">Favorites</a></li>
+                  <li><a class="dropdown-item" href="/en/uploaded/">Uploaded</a></li>
+                  <li><a class="dropdown-item" href="/en/my_profile/">Profile</a></li>
+                  <li><a class="dropdown-item" href="/en/settings/">Settings</a></li>
+                  <li><a class="dropdown-item" href="/accounts/logout/">Logout</a></li>
+                </ul>    
+              </li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-primary btn-sm invisible" id="install-app-nav" style="border-radius: 20px 20px 20px 20px;">Install app</button>
+          <button type="button" href="javascript:void(0)" onclick="showSearchBar();" class="d-inline d-md-none" style="border:none; padding: 0; background: none;" id="btn-search"><img src="/media/images/icons/search-light.svg" width="24" height="24" alt="Search"></button>
+        </div>
+      </nav>
+    
+
+    <div>
+      
+      
+
+      <div id="content">
+        
+        
+          <div id="top-ad">
+            <div class="desktop-banner-ad d-none d-md-flex">
+              <!--  [Desktop/Tablet]leaderboard_atf -->
+              <div data-pw-desk="leaderboard_atf" id="pwDeskLbAtf"></div>
+              <script type="text/javascript">
+                window.ramp.que.push(function () {
+                    window.ramp.addTag("pwDeskLbAtf");
+                })
+              </script>
+            </div>
+            <div class="mobile-banner-ad d-flex d-md-none">
+              <!--  [Mobile]leaderboard_atf -->
+              <div data-pw-mobi="leaderboard_atf" id="pwMobiLbAtf"></div>
+              <script type="text/javascript">
+                window.ramp.que.push(function () {
+                    window.ramp.addTag("pwMobiLbAtf");
+                })
+              </script>
+            </div>
+          </div>
+        
+        
+        
+<div id="breadcrumbs">
+  <ol>
+    <li>
+      <a href="/" title="Myinstants" class="link-secondary">Myinstants</a> >
+    </li>
+    <li>
+      <span>Trending in India</span>
+    </li>
+  </ol>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Myinstants",
+    "item": "https://www.myinstants.com"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Trending in India",
+    "item": "https://www.myinstants.com/en/index/in/"
+  }]
+}
+</script>
+
+
+        
+  <div id="instants_container">
+
+    
+
+    <div class="instants result-page">
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/fahhhhhhhhhhhhhh.mp3', 'loader-507030', 'fahhhhhhhhhhhhhh-3525')" title="Play FAHHHHHHHHHHHHHH sound" type="button"></button>
+<div id="loader-507030" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/fahhhhhhhhhhhhhh-3525/" class="instant-link link-secondary">FAHHHHHHHHHHHHHH</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('507030')" title="Add 'FAHHHHHHHHHHHHHH' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add FAHHHHHHHHHHHHHH to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/fahhhhhhhhhhhhhh-3525/', 'fahhhhhhhhhhhhhh-3525')"
+    title="Copy 'FAHHHHHHHHHHHHHH' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy FAHHHHHHHHHHHHHH icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('FAHHHHHHHHHHHHHH', 'https://www.myinstants.com/en/instant/fahhhhhhhhhhhhhh-3525/', '/media/sounds/fahhhhhhhhhhhhhh.mp3', 'fahhhhhhhhhhhhhh-3525')"
+    title="Share 'FAHHHHHHHHHHHHHH'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share FAHHHHHHHHHHHHHH icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#000000;"></div>
+<button class="small-button" onclick="play('/media/sounds/faaah.mp3', 'loader-502601', 'faaah-63455')" title="Play FAAAH sound" type="button"></button>
+<div id="loader-502601" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/faaah-63455/" class="instant-link link-secondary">FAAAH</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('502601')" title="Add 'FAAAH' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add FAAAH to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/faaah-63455/', 'faaah-63455')"
+    title="Copy 'FAAAH' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy FAAAH icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('FAAAH', 'https://www.myinstants.com/en/instant/faaah-63455/', '/media/sounds/faaah.mp3', 'faaah-63455')"
+    title="Share 'FAAAH'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share FAAAH icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/vine-boom.mp3', 'loader-81126', 'vine-boom-sound-70972')" title="Play VINE BOOM SOUND sound" type="button"></button>
+<div id="loader-81126" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/vine-boom-sound-70972/" class="instant-link link-secondary">VINE BOOM SOUND</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('81126')" title="Add 'VINE BOOM SOUND' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add VINE BOOM SOUND to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/vine-boom-sound-70972/', 'vine-boom-sound-70972')"
+    title="Copy 'VINE BOOM SOUND' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy VINE BOOM SOUND icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('VINE BOOM SOUND', 'https://www.myinstants.com/en/instant/vine-boom-sound-70972/', '/media/sounds/vine-boom.mp3', 'vine-boom-sound-70972')"
+    title="Share 'VINE BOOM SOUND'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share VINE BOOM SOUND icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#663300;"></div>
+<button class="small-button" onclick="play('/media/sounds/dry-fart.mp3', 'loader-5885', 'fart')" title="Play Fart sound" type="button"></button>
+<div id="loader-5885" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/fart/" class="instant-link link-secondary">Fart</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('5885')" title="Add 'Fart' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Fart to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/fart/', 'fart')"
+    title="Copy 'Fart' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Fart icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Fart', 'https://www.myinstants.com/en/instant/fart/', '/media/sounds/dry-fart.mp3', 'fart')"
+    title="Share 'Fart'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Fart icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#B4FF4E;"></div>
+<button class="small-button" onclick="play('/media/sounds/are-baap-re-yaad-aya.mp3', 'loader-575235', 'are-baap-re-yaad-aya-20126')" title="Play Are baap re yaad aya sound" type="button"></button>
+<div id="loader-575235" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/are-baap-re-yaad-aya-20126/" class="instant-link link-secondary">Are baap re yaad aya</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('575235')" title="Add 'Are baap re yaad aya' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Are baap re yaad aya to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/are-baap-re-yaad-aya-20126/', 'are-baap-re-yaad-aya-20126')"
+    title="Copy 'Are baap re yaad aya' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Are baap re yaad aya icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Are baap re yaad aya', 'https://www.myinstants.com/en/instant/are-baap-re-yaad-aya-20126/', '/media/sounds/are-baap-re-yaad-aya.mp3', 'are-baap-re-yaad-aya-20126')"
+    title="Share 'Are baap re yaad aya'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Are baap re yaad aya icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/chicken-on-tree-screaming.mp3', 'loader-534742', 'chicken-on-tree-screaming-53890')" title="Play Chicken on tree screaming sound" type="button"></button>
+<div id="loader-534742" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/chicken-on-tree-screaming-53890/" class="instant-link link-secondary">Chicken on tree screaming</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('534742')" title="Add 'Chicken on tree screaming' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Chicken on tree screaming to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/chicken-on-tree-screaming-53890/', 'chicken-on-tree-screaming-53890')"
+    title="Copy 'Chicken on tree screaming' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Chicken on tree screaming icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Chicken on tree screaming', 'https://www.myinstants.com/en/instant/chicken-on-tree-screaming-53890/', '/media/sounds/chicken-on-tree-screaming.mp3', 'chicken-on-tree-screaming-53890')"
+    title="Share 'Chicken on tree screaming'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Chicken on tree screaming icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#ff3366;"></div>
+<button class="small-button" onclick="play('/media/sounds/anime-wow-sound-effect.mp3', 'loader-21545', 'anime-wow')" title="Play Anime Wow sound" type="button"></button>
+<div id="loader-21545" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/anime-wow/" class="instant-link link-secondary">Anime Wow</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('21545')" title="Add 'Anime Wow' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Anime Wow to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/anime-wow/', 'anime-wow')"
+    title="Copy 'Anime Wow' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Anime Wow icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Anime Wow', 'https://www.myinstants.com/en/instant/anime-wow/', '/media/sounds/anime-wow-sound-effect.mp3', 'anime-wow')"
+    title="Share 'Anime Wow'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Anime Wow icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/chalo.mp3', 'loader-368757', 'chalo-9295')" title="Play Chalo sound" type="button"></button>
+<div id="loader-368757" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/chalo-9295/" class="instant-link link-secondary">Chalo</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('368757')" title="Add 'Chalo' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Chalo to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/chalo-9295/', 'chalo-9295')"
+    title="Copy 'Chalo' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Chalo icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Chalo', 'https://www.myinstants.com/en/instant/chalo-9295/', '/media/sounds/chalo.mp3', 'chalo-9295')"
+    title="Share 'Chalo'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Chalo icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/among-us-role-reveal-sound.mp3', 'loader-242807', 'among-us-role-reveal-sound-34956')" title="Play Among Us role reveal sound sound" type="button"></button>
+<div id="loader-242807" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/among-us-role-reveal-sound-34956/" class="instant-link link-secondary">Among Us role reveal sound</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('242807')" title="Add 'Among Us role reveal sound' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Among Us role reveal sound to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/among-us-role-reveal-sound-34956/', 'among-us-role-reveal-sound-34956')"
+    title="Copy 'Among Us role reveal sound' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Among Us role reveal sound icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Among Us role reveal sound', 'https://www.myinstants.com/en/instant/among-us-role-reveal-sound-34956/', '/media/sounds/among-us-role-reveal-sound.mp3', 'among-us-role-reveal-sound-34956')"
+    title="Share 'Among Us role reveal sound'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Among Us role reveal sound icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/spiderman-meme-song.mp3', 'loader-237567', 'spiderman-meme-song-37638')" title="Play spiderman meme song sound" type="button"></button>
+<div id="loader-237567" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/spiderman-meme-song-37638/" class="instant-link link-secondary">spiderman meme song</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('237567')" title="Add 'spiderman meme song' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add spiderman meme song to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/spiderman-meme-song-37638/', 'spiderman-meme-song-37638')"
+    title="Copy 'spiderman meme song' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy spiderman meme song icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('spiderman meme song', 'https://www.myinstants.com/en/instant/spiderman-meme-song-37638/', '/media/sounds/spiderman-meme-song.mp3', 'spiderman-meme-song-37638')"
+    title="Share 'spiderman meme song'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share spiderman meme song icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#8BFFF8;"></div>
+<button class="small-button" onclick="play('/media/sounds/matlab-wo-alag-hi-level-ka-banda-tha.mp3', 'loader-557211', 'matlab-wo-alag-hi-level-ka-banda-tha-38061')" title="Play Matlab wo alag hi level ka banda tha sound" type="button"></button>
+<div id="loader-557211" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/matlab-wo-alag-hi-level-ka-banda-tha-38061/" class="instant-link link-secondary">Matlab wo alag hi level ka banda tha</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('557211')" title="Add 'Matlab wo alag hi level ka banda tha' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Matlab wo alag hi level ka banda tha to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/matlab-wo-alag-hi-level-ka-banda-tha-38061/', 'matlab-wo-alag-hi-level-ka-banda-tha-38061')"
+    title="Copy 'Matlab wo alag hi level ka banda tha' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Matlab wo alag hi level ka banda tha icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Matlab wo alag hi level ka banda tha', 'https://www.myinstants.com/en/instant/matlab-wo-alag-hi-level-ka-banda-tha-38061/', '/media/sounds/matlab-wo-alag-hi-level-ka-banda-tha.mp3', 'matlab-wo-alag-hi-level-ka-banda-tha-38061')"
+    title="Share 'Matlab wo alag hi level ka banda tha'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Matlab wo alag hi level ka banda tha icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#00ff33;"></div>
+<button class="small-button" onclick="play('/media/sounds/tf_nemesis.mp3', 'loader-8483', 'sad-violin-the-meme-one')" title="Play Sad Violin (the meme one) sound" type="button"></button>
+<div id="loader-8483" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/sad-violin-the-meme-one/" class="instant-link link-secondary">Sad Violin (the meme one)</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('8483')" title="Add 'Sad Violin (the meme one)' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Sad Violin (the meme one) to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/sad-violin-the-meme-one/', 'sad-violin-the-meme-one')"
+    title="Copy 'Sad Violin (the meme one)' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Sad Violin (the meme one) icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Sad Violin (the meme one)', 'https://www.myinstants.com/en/instant/sad-violin-the-meme-one/', '/media/sounds/tf_nemesis.mp3', 'sad-violin-the-meme-one')"
+    title="Share 'Sad Violin (the meme one)'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Sad Violin (the meme one) icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#46FF18;"></div>
+<button class="small-button" onclick="play('/media/sounds/ny-video-online-audio-converter.mp3', 'loader-188519', 'haha-funny-laugh-93061')" title="Play HAha funny laugh sound" type="button"></button>
+<div id="loader-188519" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/haha-funny-laugh-93061/" class="instant-link link-secondary">HAha funny laugh</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('188519')" title="Add 'HAha funny laugh' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add HAha funny laugh to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/haha-funny-laugh-93061/', 'haha-funny-laugh-93061')"
+    title="Copy 'HAha funny laugh' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy HAha funny laugh icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('HAha funny laugh', 'https://www.myinstants.com/en/instant/haha-funny-laugh-93061/', '/media/sounds/ny-video-online-audio-converter.mp3', 'haha-funny-laugh-93061')"
+    title="Share 'HAha funny laugh'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share HAha funny laugh icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/anime-ahh.mp3', 'loader-239121', 'anime-ahh-73606')" title="Play anime ahh sound" type="button"></button>
+<div id="loader-239121" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/anime-ahh-73606/" class="instant-link link-secondary">anime ahh</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('239121')" title="Add 'anime ahh' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add anime ahh to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/anime-ahh-73606/', 'anime-ahh-73606')"
+    title="Copy 'anime ahh' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy anime ahh icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('anime ahh', 'https://www.myinstants.com/en/instant/anime-ahh-73606/', '/media/sounds/anime-ahh.mp3', 'anime-ahh-73606')"
+    title="Share 'anime ahh'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share anime ahh icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FFFFA0;"></div>
+<button class="small-button" onclick="play('/media/sounds/bone-crack.mp3', 'loader-230273', 'bone-crack-23901')" title="Play Bone Crack sound" type="button"></button>
+<div id="loader-230273" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/bone-crack-23901/" class="instant-link link-secondary">Bone Crack</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('230273')" title="Add 'Bone Crack' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Bone Crack to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/bone-crack-23901/', 'bone-crack-23901')"
+    title="Copy 'Bone Crack' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Bone Crack icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Bone Crack', 'https://www.myinstants.com/en/instant/bone-crack-23901/', '/media/sounds/bone-crack.mp3', 'bone-crack-23901')"
+    title="Share 'Bone Crack'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Bone Crack icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#2A8DFF;"></div>
+<button class="small-button" onclick="play('/media/sounds/punch-gaming-sound-effect-hd_RzlG1GE.mp3', 'loader-170930', 'punch-sound-86161')" title="Play Punch Sound sound" type="button"></button>
+<div id="loader-170930" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/punch-sound-86161/" class="instant-link link-secondary">Punch Sound</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('170930')" title="Add 'Punch Sound' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Punch Sound to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/punch-sound-86161/', 'punch-sound-86161')"
+    title="Copy 'Punch Sound' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Punch Sound icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Punch Sound', 'https://www.myinstants.com/en/instant/punch-sound-86161/', '/media/sounds/punch-gaming-sound-effect-hd_RzlG1GE.mp3', 'punch-sound-86161')"
+    title="Share 'Punch Sound'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Punch Sound icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF2C2C;"></div>
+<button class="small-button" onclick="play('/media/sounds/dun-dun-dun-sound-effect-brass_8nFBccR.mp3', 'loader-198076', 'dun-dun-dunnnnnnnn-68584')" title="Play dun dun dunnnnnnnn sound" type="button"></button>
+<div id="loader-198076" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/dun-dun-dunnnnnnnn-68584/" class="instant-link link-secondary">dun dun dunnnnnnnn</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('198076')" title="Add 'dun dun dunnnnnnnn' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add dun dun dunnnnnnnn to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/dun-dun-dunnnnnnnn-68584/', 'dun-dun-dunnnnnnnn-68584')"
+    title="Copy 'dun dun dunnnnnnnn' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy dun dun dunnnnnnnn icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('dun dun dunnnnnnnn', 'https://www.myinstants.com/en/instant/dun-dun-dunnnnnnnn-68584/', '/media/sounds/dun-dun-dun-sound-effect-brass_8nFBccR.mp3', 'dun-dun-dunnnnnnnn-68584')"
+    title="Share 'dun dun dunnnnnnnn'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share dun dun dunnnnnnnn icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FFFACE;"></div>
+<button class="small-button" onclick="play('/media/sounds/gopgopgop.mp3', 'loader-406958', 'gopgopgop-41469')" title="Play GopGopGop sound" type="button"></button>
+<div id="loader-406958" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/gopgopgop-41469/" class="instant-link link-secondary">GopGopGop</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('406958')" title="Add 'GopGopGop' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add GopGopGop to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/gopgopgop-41469/', 'gopgopgop-41469')"
+    title="Copy 'GopGopGop' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy GopGopGop icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('GopGopGop', 'https://www.myinstants.com/en/instant/gopgopgop-41469/', '/media/sounds/gopgopgop.mp3', 'gopgopgop-41469')"
+    title="Share 'GopGopGop'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share GopGopGop icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/fahhh_KcgAXfs.mp3', 'loader-493660', 'fahhh-42300')" title="Play Fahhh sound" type="button"></button>
+<div id="loader-493660" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/fahhh-42300/" class="instant-link link-secondary">Fahhh</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('493660')" title="Add 'Fahhh' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Fahhh to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/fahhh-42300/', 'fahhh-42300')"
+    title="Copy 'Fahhh' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Fahhh icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Fahhh', 'https://www.myinstants.com/en/instant/fahhh-42300/', '/media/sounds/fahhh_KcgAXfs.mp3', 'fahhh-42300')"
+    title="Share 'Fahhh'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Fahhh icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/vine-boom-sound-effect_KT89XIq.mp3', 'loader-102777', 'instagram-thud-55328')" title="Play instagram thud sound" type="button"></button>
+<div id="loader-102777" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/instagram-thud-55328/" class="instant-link link-secondary">instagram thud</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('102777')" title="Add 'instagram thud' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add instagram thud to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/instagram-thud-55328/', 'instagram-thud-55328')"
+    title="Copy 'instagram thud' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy instagram thud icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('instagram thud', 'https://www.myinstants.com/en/instant/instagram-thud-55328/', '/media/sounds/vine-boom-sound-effect_KT89XIq.mp3', 'instagram-thud-55328')"
+    title="Share 'instagram thud'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share instagram thud icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FFB732;"></div>
+<button class="small-button" onclick="play('/media/sounds/aayein-meme.mp3', 'loader-411651', 'aayein-meme-98363')" title="Play Aayein Meme sound" type="button"></button>
+<div id="loader-411651" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/aayein-meme-98363/" class="instant-link link-secondary">Aayein Meme</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('411651')" title="Add 'Aayein Meme' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Aayein Meme to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/aayein-meme-98363/', 'aayein-meme-98363')"
+    title="Copy 'Aayein Meme' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Aayein Meme icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Aayein Meme', 'https://www.myinstants.com/en/instant/aayein-meme-98363/', '/media/sounds/aayein-meme.mp3', 'aayein-meme-98363')"
+    title="Share 'Aayein Meme'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Aayein Meme icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/slap-soundmaster13-49669815_4L20wGP.mp3', 'loader-188785', 'slap-hard-84097')" title="Play slap hard sound" type="button"></button>
+<div id="loader-188785" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/slap-hard-84097/" class="instant-link link-secondary">slap hard</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('188785')" title="Add 'slap hard' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add slap hard to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/slap-hard-84097/', 'slap-hard-84097')"
+    title="Copy 'slap hard' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy slap hard icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('slap hard', 'https://www.myinstants.com/en/instant/slap-hard-84097/', '/media/sounds/slap-soundmaster13-49669815_4L20wGP.mp3', 'slap-hard-84097')"
+    title="Share 'slap hard'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share slap hard icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/cid-le-mdc.mp3', 'loader-422326', 'cid-le-mdc-66107')" title="Play CID LE MDC sound" type="button"></button>
+<div id="loader-422326" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/cid-le-mdc-66107/" class="instant-link link-secondary">CID LE MDC</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('422326')" title="Add 'CID LE MDC' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add CID LE MDC to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/cid-le-mdc-66107/', 'cid-le-mdc-66107')"
+    title="Copy 'CID LE MDC' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy CID LE MDC icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('CID LE MDC', 'https://www.myinstants.com/en/instant/cid-le-mdc-66107/', '/media/sounds/cid-le-mdc.mp3', 'cid-le-mdc-66107')"
+    title="Share 'CID LE MDC'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share CID LE MDC icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/romanceeeeeeeeeeeeee.mp3', 'loader-258590', 'romanceeeeeeeeeeeeee-29042')" title="Play romanceeeeeeeeeeeeee sound" type="button"></button>
+<div id="loader-258590" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/romanceeeeeeeeeeeeee-29042/" class="instant-link link-secondary">romanceeeeeeeeeeeeee</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('258590')" title="Add 'romanceeeeeeeeeeeeee' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add romanceeeeeeeeeeeeee to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/romanceeeeeeeeeeeeee-29042/', 'romanceeeeeeeeeeeeee-29042')"
+    title="Copy 'romanceeeeeeeeeeeeee' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy romanceeeeeeeeeeeeee icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('romanceeeeeeeeeeeeee', 'https://www.myinstants.com/en/instant/romanceeeeeeeeeeeeee-29042/', '/media/sounds/romanceeeeeeeeeeeeee.mp3', 'romanceeeeeeeeeeeeee-29042')"
+    title="Share 'romanceeeeeeeeeeeeee'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share romanceeeeeeeeeeeeee icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#1ECBFF;"></div>
+<button class="small-button" onclick="play('/media/sounds/family-dekhte-hain-nahi-to.mp3', 'loader-454850', 'family-dekhte-hain-nahi-to-76318')" title="Play Family Dekhte hain nahi to sound" type="button"></button>
+<div id="loader-454850" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/family-dekhte-hain-nahi-to-76318/" class="instant-link link-secondary">Family Dekhte hain nahi to</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('454850')" title="Add 'Family Dekhte hain nahi to' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Family Dekhte hain nahi to to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/family-dekhte-hain-nahi-to-76318/', 'family-dekhte-hain-nahi-to-76318')"
+    title="Copy 'Family Dekhte hain nahi to' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Family Dekhte hain nahi to icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Family Dekhte hain nahi to', 'https://www.myinstants.com/en/instant/family-dekhte-hain-nahi-to-76318/', '/media/sounds/family-dekhte-hain-nahi-to.mp3', 'family-dekhte-hain-nahi-to-76318')"
+    title="Share 'Family Dekhte hain nahi to'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Family Dekhte hain nahi to icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#00E9FF;"></div>
+<button class="small-button" onclick="play('/media/sounds/baby-laughing-meme.mp3', 'loader-256935', 'baby-laughing-meme-56428')" title="Play baby laughing meme sound" type="button"></button>
+<div id="loader-256935" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/baby-laughing-meme-56428/" class="instant-link link-secondary">baby laughing meme</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('256935')" title="Add 'baby laughing meme' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add baby laughing meme to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/baby-laughing-meme-56428/', 'baby-laughing-meme-56428')"
+    title="Copy 'baby laughing meme' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy baby laughing meme icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('baby laughing meme', 'https://www.myinstants.com/en/instant/baby-laughing-meme-56428/', '/media/sounds/baby-laughing-meme.mp3', 'baby-laughing-meme-56428')"
+    title="Share 'baby laughing meme'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share baby laughing meme icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/rizz-sound-effect.mp3', 'loader-328690', 'rizz-sound-effect-54189')" title="Play rizz sound effect sound" type="button"></button>
+<div id="loader-328690" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/rizz-sound-effect-54189/" class="instant-link link-secondary">rizz sound effect</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('328690')" title="Add 'rizz sound effect' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add rizz sound effect to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/rizz-sound-effect-54189/', 'rizz-sound-effect-54189')"
+    title="Copy 'rizz sound effect' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy rizz sound effect icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('rizz sound effect', 'https://www.myinstants.com/en/instant/rizz-sound-effect-54189/', '/media/sounds/rizz-sound-effect.mp3', 'rizz-sound-effect-54189')"
+    title="Share 'rizz sound effect'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share rizz sound effect icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF9B46;"></div>
+<button class="small-button" onclick="play('/media/sounds/abhi-maza-ayagga.mp3', 'loader-226121', 'abhi-maza-ayagga-61277')" title="Play abhi maza ayagga sound" type="button"></button>
+<div id="loader-226121" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/abhi-maza-ayagga-61277/" class="instant-link link-secondary">abhi maza ayagga</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('226121')" title="Add 'abhi maza ayagga' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add abhi maza ayagga to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/abhi-maza-ayagga-61277/', 'abhi-maza-ayagga-61277')"
+    title="Copy 'abhi maza ayagga' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy abhi maza ayagga icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('abhi maza ayagga', 'https://www.myinstants.com/en/instant/abhi-maza-ayagga-61277/', '/media/sounds/abhi-maza-ayagga.mp3', 'abhi-maza-ayagga-61277')"
+    title="Share 'abhi maza ayagga'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share abhi maza ayagga icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#40FFFE;"></div>
+<button class="small-button" onclick="play('/media/sounds/depression-indian.mp3', 'loader-597891', 'depression-indian-25415')" title="Play Depression indian ! sound" type="button"></button>
+<div id="loader-597891" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/depression-indian-25415/" class="instant-link link-secondary">Depression indian !</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('597891')" title="Add 'Depression indian !' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Depression indian ! to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/depression-indian-25415/', 'depression-indian-25415')"
+    title="Copy 'Depression indian !' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Depression indian ! icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Depression indian !', 'https://www.myinstants.com/en/instant/depression-indian-25415/', '/media/sounds/depression-indian.mp3', 'depression-indian-25415')"
+    title="Share 'Depression indian !'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Depression indian ! icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/dexter-meme.mp3', 'loader-515172', 'dexter-meme-26140')" title="Play Dexter meme sound" type="button"></button>
+<div id="loader-515172" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/dexter-meme-26140/" class="instant-link link-secondary">Dexter meme</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('515172')" title="Add 'Dexter meme' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Dexter meme to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/dexter-meme-26140/', 'dexter-meme-26140')"
+    title="Copy 'Dexter meme' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Dexter meme icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Dexter meme', 'https://www.myinstants.com/en/instant/dexter-meme-26140/', '/media/sounds/dexter-meme.mp3', 'dexter-meme-26140')"
+    title="Share 'Dexter meme'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Dexter meme icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FFEE87;"></div>
+<button class="small-button" onclick="play('/media/sounds/shocked-sound-effect.mp3', 'loader-165607', 'shocked-sound-37548')" title="Play Shocked sound sound" type="button"></button>
+<div id="loader-165607" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/shocked-sound-37548/" class="instant-link link-secondary">Shocked sound</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('165607')" title="Add 'Shocked sound' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Shocked sound to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/shocked-sound-37548/', 'shocked-sound-37548')"
+    title="Copy 'Shocked sound' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Shocked sound icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Shocked sound', 'https://www.myinstants.com/en/instant/shocked-sound-37548/', '/media/sounds/shocked-sound-effect.mp3', 'shocked-sound-37548')"
+    title="Share 'Shocked sound'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Shocked sound icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/nahi-nahi-saluke-yaha-kuchh-to-gadbad-hai.mp3', 'loader-588717', 'nahi-nahi-saluke-yaha-kuchh-to-gadbad-hai-85884')" title="Play Nahi nahi saluke yaha kuchh to gadbad hai sound" type="button"></button>
+<div id="loader-588717" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/nahi-nahi-saluke-yaha-kuchh-to-gadbad-hai-85884/" class="instant-link link-secondary">Nahi nahi saluke yaha kuchh to gadbad hai</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('588717')" title="Add 'Nahi nahi saluke yaha kuchh to gadbad hai' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Nahi nahi saluke yaha kuchh to gadbad hai to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/nahi-nahi-saluke-yaha-kuchh-to-gadbad-hai-85884/', 'nahi-nahi-saluke-yaha-kuchh-to-gadbad-hai-85884')"
+    title="Copy 'Nahi nahi saluke yaha kuchh to gadbad hai' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Nahi nahi saluke yaha kuchh to gadbad hai icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Nahi nahi saluke yaha kuchh to gadbad hai', 'https://www.myinstants.com/en/instant/nahi-nahi-saluke-yaha-kuchh-to-gadbad-hai-85884/', '/media/sounds/nahi-nahi-saluke-yaha-kuchh-to-gadbad-hai.mp3', 'nahi-nahi-saluke-yaha-kuchh-to-gadbad-hai-85884')"
+    title="Share 'Nahi nahi saluke yaha kuchh to gadbad hai'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Nahi nahi saluke yaha kuchh to gadbad hai icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#cac31a;"></div>
+<button class="small-button" onclick="play('/media/sounds/spongebob-fail.mp3', 'loader-67355', 'spongebob-fail-11236')" title="Play SpongeBob Fail sound" type="button"></button>
+<div id="loader-67355" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/spongebob-fail-11236/" class="instant-link link-secondary">SpongeBob Fail</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('67355')" title="Add 'SpongeBob Fail' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add SpongeBob Fail to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/spongebob-fail-11236/', 'spongebob-fail-11236')"
+    title="Copy 'SpongeBob Fail' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy SpongeBob Fail icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('SpongeBob Fail', 'https://www.myinstants.com/en/instant/spongebob-fail-11236/', '/media/sounds/spongebob-fail.mp3', 'spongebob-fail-11236')"
+    title="Share 'SpongeBob Fail'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share SpongeBob Fail icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/ding-sound-effect_2.mp3', 'loader-38787', 'ding-sound-effect')" title="Play ding sound effect sound" type="button"></button>
+<div id="loader-38787" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/ding-sound-effect/" class="instant-link link-secondary">ding sound effect</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('38787')" title="Add 'ding sound effect' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add ding sound effect to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/ding-sound-effect/', 'ding-sound-effect')"
+    title="Copy 'ding sound effect' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy ding sound effect icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('ding sound effect', 'https://www.myinstants.com/en/instant/ding-sound-effect/', '/media/sounds/ding-sound-effect_2.mp3', 'ding-sound-effect')"
+    title="Share 'ding sound effect'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share ding sound effect icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/eh-eh-ehhhh.mp3', 'loader-234583', 'eh-eh-ehhhh-30930')" title="Play eh?eh?ehhhh? sound" type="button"></button>
+<div id="loader-234583" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/eh-eh-ehhhh-30930/" class="instant-link link-secondary">eh?eh?ehhhh?</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('234583')" title="Add 'eh?eh?ehhhh?' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add eh?eh?ehhhh? to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/eh-eh-ehhhh-30930/', 'eh-eh-ehhhh-30930')"
+    title="Copy 'eh?eh?ehhhh?' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy eh?eh?ehhhh? icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('eh?eh?ehhhh?', 'https://www.myinstants.com/en/instant/eh-eh-ehhhh-30930/', '/media/sounds/eh-eh-ehhhh.mp3', 'eh-eh-ehhhh-30930')"
+    title="Share 'eh?eh?ehhhh?'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share eh?eh?ehhhh? icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+
+        <div class="instant">
+          
+<div class="circle small-button-background" style="background-color:#FF0000;"></div>
+<button class="small-button" onclick="play('/media/sounds/maa-tari-oo-bhai.mp3', 'loader-575540', 'maa-tari-oo-bhai-7312')" title="Play Maa tari oo bhai sound" type="button"></button>
+<div id="loader-575540" class="loader"></div>
+<div class="small-button-shadow"></div>
+<a href="/en/instant/maa-tari-oo-bhai-7312/" class="instant-link link-secondary">Maa tari oo bhai</a>
+
+
+<div class="result-page-instant-sharebox" style="margin-top: 8px;">
+  
+  <button type="button" class="instant-action-button" onclick="favorite('575540')" title="Add 'Maa tari oo bhai' to favorites">
+    <img class="instant-action-button-icon" src="/media/images/icons/heart.svg"
+      alt="Add Maa tari oo bhai to my favorites list icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Added to favorites" data-bs-trigger="click" />
+  </button>
+  
+
+  
+
+  
+
+  <button type="button" class="instant-action-button" onclick="copyInstantLink('https://www.myinstants.com/en/instant/maa-tari-oo-bhai-7312/', 'maa-tari-oo-bhai-7312')"
+    title="Copy 'Maa tari oo bhai' link to clipboard">
+    <img class="instant-action-button-icon" src="/media/images/icons/link.svg" alt="Copy Maa tari oo bhai icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!" data-bs-trigger="click" />
+  </button>
+
+  <button type="button" class="webshare instant-action-button"
+    onclick="share('Maa tari oo bhai', 'https://www.myinstants.com/en/instant/maa-tari-oo-bhai-7312/', '/media/sounds/maa-tari-oo-bhai.mp3', 'maa-tari-oo-bhai-7312')"
+    title="Share 'Maa tari oo bhai'">
+    <img class="instant-action-button-icon" src="/media/images/icons/share-round.svg" alt="Share Maa tari oo bhai icon" />
+  </button>
+
+</div>
+        </div>
+        
+      
+    </div>
+  </div>
+
+  <div id="loading"></div>
+
+
+
+        
+  
+
+      </div>
+    </div>
+
+    
+  
+      <footer class="page-footer p-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <button type="button" class="btn btn-primary mb-4 invisible" id="install-app-desktop"><img src="/media/images/icons/save-alt.svg" style="margin: 0 5px 5px" alt="Install Myinstants app icon" width="18" height="18">Install Myinstants webapp</button>
+            </div>
+            <div class="col-md-5 col-sm-12">
+              <p class="text-white">Main links</p>
+              <ul class="list-unstyled">
+                <li><a href="/en/trending/" class="link-light text-decoration-none" >Trending</a></li>
+                <li><a href="/en/best_of_all_time/" class="link-light text-decoration-none" >Hall of fame</a></li>
+                <li><a href="/en/recent/" class="link-light text-decoration-none" >Just added</a></li>
+                <li><a class="link-light text-decoration-none" href="/en/categories/">Categories</a></li>
+                <li><a href="/en/new/" class="link-light text-decoration-none">Upload Sound</a></li>
+                <li><a href="/en/favorites/" class="link-light text-decoration-none">My Favorites</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-12">
+              <p class="text-white">Other links</p>
+              <ul class="list-unstyled">
+                <li><a class="link-light text-decoration-none" href="/en/privacy_policy.html">Privacy policy</a></li>
+                <li><a class="link-light text-decoration-none" href="/en/terms_of_use.html">Terms of use</a></li>
+                <li><a class="link-light text-decoration-none" href="/en/dcma_copyright_policy.html">DCMA - Copyright</a></li>
+              </ul>
+              <form action="/i18n/setlang/" method="post" class="d-inline-flex form-floating" >
+                  <input name="next" type="hidden" value="">
+                  <select name="language" class="form-control" id="languages">
+                      
+                      
+                      
+                      
+                          <option value="en" selected>
+                              English (en)
+                          </option>
+                      
+                          <option value="de">
+                              Deutsch (de)
+                          </option>
+                      
+                          <option value="pt">
+                              Português (pt)
+                          </option>
+                      
+                          <option value="es">
+                              español (es)
+                          </option>
+                      
+                          <option value="fr">
+                              français (fr)
+                          </option>
+                      
+                          <option value="nl">
+                              Nederlands (nl)
+                          </option>
+                      
+                          <option value="hi">
+                              हिंदी (hi)
+                          </option>
+                      
+                          <option value="it">
+                              italiano (it)
+                          </option>
+                      
+                          <option value="ja">
+                              日本語 (ja)
+                          </option>
+                      
+                          <option value="ko">
+                              한국어 (ko)
+                          </option>
+                      
+                          <option value="ru">
+                              Русский (ru)
+                          </option>
+                      
+                  </select>
+                  <label for="languages">Change language</label>
+                  <input type="submit" value="Go" class="btn btn-primary">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="footer-copyright" class="text-white">
+          <div class="container">
+            <small>© Myinstants since 2010 - Icons made by <a href="https://www.flaticon.com/authors/roundicons" rel="noopener" title="Roundicons" class="link-light text-decoration-none">Roundicons</a> and <a href="https://www.freepik.com/" rel="noopener" title="Freepik" class="link-light text-decoration-none">Freepik</a> from <a href="https://www.flaticon.com/" rel="noopener" title="Flaticon" class="link-light text-decoration-none">www.flaticon.com</a></small>
+          </div>
+        </div>
+
+      </footer>
+    
+
+
+    
+	
+      <script src="/media/js/bootstrap.bundle.min.js"></script>
+    
+
+  <script>
+    function infiniteScroll() {
+      let responseBuffer = [];
+      let requestPending = false;
+      let currentPage = 1;
+      const loadingEl = document.querySelector('#loading');
+      const containerEl = document.querySelector('#instants_container');
+
+      const emptyBuffer = () => {
+        if (responseBuffer.length == 0) return;
+        
+        while (responseBuffer.length > 0) {
+            const item = responseBuffer.shift();
+            containerEl.appendChild(item);
+        }
+      
+        let params = (new URL(document.location)).searchParams;
+        params.set('page', currentPage);
+        let pageLocation = window.location.href.split('?')[0] + '?' + params;
+        gtag('event', 'page_view', {
+          page_location: pageLocation,
+        });
+      };
+
+      const requestHandler = () => {
+          if (requestPending) return;
+          currentPage = currentPage + 1;
+          requestPending = true;
+          let params = (new URL(document.location)).searchParams;
+          params.set('page', currentPage);
+          fetch(`?${params}`)
+            .then(response => {
+                if (response.ok) {
+                    return response.text();
+                } else {
+                    throw new Error("Not 2xx response", {cause: response});
+                }
+            })
+            .then(html => {
+                var parser = new DOMParser();
+                var doc = parser.parseFromString(html, 'text/html');
+                hideWebShareIfNotSupported(doc);
+                setTooltips(doc);
+                responseBuffer = responseBuffer.concat(Array.from(doc.querySelector("#instants_container").children));
+                requestPending = false;
+                listObserver.observe(loadingEl);
+            })
+            .catch(error => {
+                loadingEl.style = "display: none";
+                listObserver.unobserve(loadingEl);
+            });
+      }
+
+      const listObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+              if (entry.intersectionRatio > 0) {
+                  listObserver.unobserve(loadingEl);
+                  emptyBuffer();
+                  requestHandler();
+              }
+          });
+      }, {
+          rootMargin: "0px 0px 200px 0px"
+      });
+      
+      listObserver.observe(loadingEl);
+      requestHandler();
+
+    }
+    infiniteScroll();
+  </script>
+
+  
+
+    <script async src="//cdn.intergient.com/ramp_core.js"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"75ce2ae0c82540e0995d01592ae03121","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

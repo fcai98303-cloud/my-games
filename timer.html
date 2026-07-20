@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的网页倒计时</title>
+    <style>
+        /* 1. 使用我们刚学的梦幻紫蓝渐变大背景，并且让所有内容居中 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #111827 0%, #312e81 100%);
+            text-align: center;
+            color: white;
+            margin-top: 100px;
+        }
+
+        /* 2. 精美的计时器悬浮卡片 */
+        .timer-box {
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            display: inline-block;
+            padding: 40px 60px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        /* 3. 输入框磨砂半透明化 */
+        input {
+            width: 120px;
+            padding: 12px;
+            font-size: 18px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border-radius: 8px;
+            outline: none;
+            text-align: center;
+            margin-right: 10px;
+        }
+        input::placeholder {
+            color: #ccc;
+        }
+        input:focus {
+            border-color: #818cf8;
+        }
+
+        /* 4. 按钮完美应用你刚才学过的“呼吸动态特效” */
+        button {
+            padding: 12px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+        /* 悬停放大 */
+        button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(99, 102, 241, 0.4);
+        }
+        /* 按下缩小 */
+        button:active {
+            transform: scale(0.98);
+        }
+
+        /* 5. 倒计时大数字：超级放大，带有科幻荧光蓝效果 */
+        #timerDisplay {
+            font-size: 120px;
+            font-weight: 200;
+            color: #60a5fa;
+            text-shadow: 0 0 20px rgba(96, 165, 250, 0.5);
+            margin-top: 20px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+
+     <h2>⏱️ 我的网页定时器</h2>
+    
+    <div class="timer-box">
+        <!-- 1. 让用户输入秒数的箱子 -->
+        <input type="number" id="secondsInput" placeholder="输入秒数"> 秒
+        <br>
+        
+        <!-- 2. 控制开始和停止的按钮 -->
+        <button onclick="startTimer()">开始倒计时</button>
+        
+        <!-- 3. 显示倒数数字的大牌子 -->
+        <div id="timerDisplay">0</div>
+    </div>
+
+    <script>
+        // 准备两个空箱子，一个装倒计时的数字，一个装计时器的开关
+        let timeLeft = 0;
+        let timerId = null;
+
+        function startTimer() {
+            // 1. 搬运原料：拿到用户输入的秒数
+            let inputValue = document.getElementById("secondsInput").value;
+            
+            // 2. 转换原料：把文字转换成真正的数字
+            timeLeft = Number(inputValue);
+
+            // 安全检查：如果用户没输入，或者输入的数字小于等于 0，就不执行
+            if (isNaN(timeLeft) || timeLeft <= 0) {
+                alert("请输入一个大于 0 的有效秒数哦！");
+                return;
+            }
+
+            // 3. 将数字立刻送到大牌子上显示
+            document.getElementById("timerDisplay").innerText = timeLeft;
+
+            // 4. 清理旧的闹钟（防止用户疯狂连点导致数字乱跳）
+            clearInterval(timerId);
+
+            // 5. 开启“自动打卡机”：每隔 1000 毫秒（也就是 1 秒）执行一次下面的小任务
+            timerId = setInterval(function() {
+                timeLeft = timeLeft - 1; // 每次小任务：时间减去 1 秒
+                
+                // 将减完后的新数字，送回到前台的大牌子上显示
+                document.getElementById("timerDisplay").innerText = timeLeft;
+
+                // 如果时间扣到 0 了，就把打卡机砸了（停掉），并弹窗提醒
+                if (timeLeft <= 0) {
+                    clearInterval(timerId);
+                    alert("⏰ 时间到啦！");
+                }
+            }, 1000);
+        }
+    </script>
+</body>
+</html>

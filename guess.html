@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网页猜数字小游戏</title>
+    <style>
+        /* 1. 深邃的电竞感暗色渐变大背景 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            text-align: center;
+            color: white;
+            margin-top: 80px;
+        }
+
+        h2 {
+            font-size: 32px;
+            color: #38bdf8;
+            text-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+        }
+
+        p {
+            color: #94a3b8;
+        }
+
+        /* 2. 磨砂玻璃质感的游戏机悬浮卡片 */
+        .game-box {
+            background-color: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            display: inline-block;
+            padding: 40px;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            margin-top: 20px;
+        }
+
+        /* 3. 输入框科技化 */
+        input {
+            width: 180px;
+            padding: 12px;
+            font-size: 18px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            background: rgba(0, 0, 0, 0.2);
+            color: white;
+            border-radius: 10px;
+            outline: none;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        input:focus {
+            border-color: #38bdf8;
+            box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+        }
+
+        /* 4. 按钮动态特效 */
+        button {
+            padding: 12px 28px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+            color: white;
+            font-weight: bold;
+            margin-left: 10px;
+            transition: all 0.2s ease;
+        }
+        button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(56, 189, 248, 0.4);
+        }
+        button:active {
+            transform: scale(0.98);
+        }
+
+        /* 5. 大提示牌文字 */
+        #hintDisplay {
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 25px;
+            color: #38bdf8;
+            min-height: 33px;
+        }
+
+        /* 6. 次数计数器 */
+        .count-text {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        #countDisplay {
+            font-size: 24px;
+            color: #f43f5e;
+            font-weight: bold;
+            font-family: monospace;
+        }
+    </style>
+    /* ---------------- 手机端专属响应式样式 ---------------- */
+@media (max-width: 600px) {
+    /* 1. 标题和描述文字在手机上稍微缩小，防止换行太难看 */
+    h2 {
+        font-size: 22px !important;
+        margin-top: 15px !important;
+    }
+    p {
+        font-size: 14px !important;
+        padding: 0 15px !important;
+    }
+
+    /* 2. 让整个游戏的大盒子（如果是.game-box）在手机上宽度刚好，不要撑破屏幕 */
+    .game-box {
+        width: 90% !important;
+        max-width: 360px !important;
+        padding: 15px !important;
+        margin: 10px auto !important;
+    }
+
+    /* 3. 让大提示文字（比如“猜大了”、“猜小了”）字号适中 */
+    #hintDisplay {
+        font-size: 18px !important;
+        margin-top: 15px !important;
+    }
+
+    /* 4. 计数器也缩小一点 */
+    #countDisplay {
+        font-size: 20px !important;
+    }
+}
+</head>
+<body>
+
+   <h2>🎮 猜数字小游戏</h2>
+    <p>电脑已经偷偷想好了一个 1 到 100 之间的数字，你能在最少的次数内猜中它吗？</p>
+
+    <div class="game-box">
+        <!-- 1. 让用户输入猜测数字的箱子 -->
+        <input type="number" id="guessInput" placeholder="输入 1-100 的数字">
+        
+        <!-- 2. 提交猜测的按钮 -->
+        <button onclick="checkGuess()">我猜！</button>
+        
+        <!-- 3. 用来提示“猜大了”、“猜小了”或“猜对了”的大提示牌 -->
+        <div id="hintDisplay">准备好就可以开始猜啦！</div>
+        
+        <!-- 4. 悄悄记录你猜了多少次的小计数器 -->
+        <p class="count-text">你已经猜了 <span id="countDisplay">0</span> 次</p>
+        
+        <!-- 5. 重新开始按钮（一开始先藏起来，通关后才露出来） -->
+        <button id="resetBtn" onclick="resetGame()" style="display: none; background: #94a3b8;">再来一局</button>
+    </div>
+
+    <script>
+      // 1. 悄悄准备两个“保密箱”
+        let answerNumber = 0; // 电脑偷偷藏起来的正确答案
+        let guessCount = 0;  // 记录用户猜了多少次
+
+        // 2. 游戏初始化的“机关”：每次新开局，电脑都要重新想一个数字
+        function initGame() {
+            // 这行魔法代码可以让电脑随机生成一个 1 到 100 之间的整数
+            answerNumber = Math.floor(Math.random() * 100) + 1;
+            guessCount = 0; // 次数清零
+            
+            // 恢复前台的显示状态
+            document.getElementById("guessInput").value = "";
+            document.getElementById("hintDisplay").innerText = "新一局开始啦，输入数字猜猜看！";
+            document.getElementById("hintDisplay").style.color = "#60a5fa"; // 恢复荧光蓝字
+            document.getElementById("countDisplay").innerText = "0";
+            document.getElementById("resetBtn").style.display = "none"; // 把再来一局按钮藏起来
+        }
+
+        // 3. 核心流水线：当用户点击“我猜！”按钮时执行
+        function checkGuess() {
+            // 搬运原料：拿到用户输入的数字，并转换成真的数字
+            let uInput = document.getElementById("guessInput").value;
+            let userNumber = Number(uInput);
+
+            // 安全检查：防止用户调皮不输入，或者输入了瞎写的数字
+            if (uInput === "" || isNaN(userNumber) || userNumber < 1 || userNumber > 100) {
+                alert("请先输入一个 1 到 100 之间的有效数字哦！");
+                return;
+            }
+
+            // 只要输入有效，猜测次数就加 1 次
+            guessCount = guessCount + 1;
+            document.getElementById("countDisplay").innerText = guessCount;
+
+            // 挑选加工方式：经典的“三岔路口”选择题
+            if (userNumber > answerNumber) {
+                // 猜大了
+                document.getElementById("hintDisplay").innerText = "🔺 猜大啦！再往小了试一下？";
+                document.getElementById("hintDisplay").style.color = "#f87171"; // 变成警告红
+            } else if (userNumber < answerNumber) {
+                // 猜小了
+                document.getElementById("hintDisplay").innerText = "🔻 猜小啦！再往大了试一下？";
+                document.getElementById("hintDisplay").style.color = "#fbbf24"; // 变成温暖黄
+            } else {
+                // 猜对了！
+                document.getElementById("hintDisplay").innerText = `🎉 恭喜你！竟然真的猜对啦！答案就是 ${answerNumber}`;
+                document.getElementById("hintDisplay").style.color = "#34d399"; // 变成成功绿
+                
+                // 把“再来一局”的按钮显示出来
+                document.getElementById("resetBtn").style.display = "inline-block";
+            }
+        }
+
+        // 4. 当用户点击“再来一局”时执行
+        function resetGame() {
+            initGame();
+        }
+
+        // 5. 【大招机关】：当网页一加载完，立刻自动执行一次初始化，让电脑把第一个数字想好
+        initGame();
+    </script>
+</body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网页打地鼠小游戏</title>
+    <style>
+        /* 1. 纯黑金色高级背景 + 纯代码绘制的金色大海与帆船 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000000; /* 纯黑底色 */
+            /* 这一长串魔法代码通过分层技术，在纯黑背景上画出了一条金色的帆船和一层层金色的海浪 */
+            background-image: 
+                /* 顶层的金色立体小帆船 */
+                url("data:image/svg+xml,%3Csvg xmlns='http://w3.org' viewBox='0 0 100 100'%3E%3Cpath d='M50 15 L53 45 L35 45 Z M55 20 L70 45 L55 45 Z M30 50 C40 50 45 55 50 55 C55 55 60 50 70 50 C65 62 35 62 30 50 Z M50 45 L50 53' fill='none' stroke='%23dfb76c' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E"),
+                /* 底层的金色层叠波浪大海 */
+                url("data:image/svg+xml,%3Csvg xmlns='http://w3.org' width='100' height='30' viewBox='0 0 100 30'%3E%3Cpath d='M0 10 Q25 20 50 10 T100 10 L100 30 L0 30 Z M0 20 Q25 28 50 20 T100 20 L100 30 L0 30 Z' fill='%23bf9a4c' opacity='0.15'/%3E%3C/svg%3E");
+            background-repeat: no-repeat, repeat-x;
+           background-position: 30% 60px, bottom center;
+            background-size: 250px 250px, 200px auto;
+            text-align: center;
+            color: #f3e8ff;
+            margin-top: 150px; /* 留出顶部给帆船和标题的空间 */
+        }
+
+        /* 2. 奢华黄金大标题 */
+        h2 {
+            font-size: 34px;
+            color: #dfb76c;
+            text-shadow: 0 2px 8px rgba(223, 183, 108, 0.5);
+            font-weight: 800;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+        }
+        /* 2. 黑金磨砂记分牌 */
+        .score-board {
+            font-size: 20px;
+            background: rgba(223, 183, 108, 0.08);
+            backdrop-filter: blur(10px);
+            padding: 12px 35px;
+            display: inline-block;
+            border-radius: 50px;
+            border: 1px solid rgba(223, 183, 108, 0.3);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+        }
+        b { color: #fcd34d; font-size: 26px; text-shadow: 0 0 5px rgba(252, 211, 77, 0.5); }
+
+        /* 3. 亮金色高级按钮 */
+        #startBtn {
+            display: block;
+            margin: 30px auto;
+            padding: 14px 45px;
+            font-size: 18px;
+            border: 1px solid #fcd34d;
+            border-radius: 50px;
+            cursor: pointer;
+            background: linear-gradient(135deg, #dfb76c 0%, #9a7432 100%);
+            color: #000000;
+            font-weight: bold;
+            box-shadow: 0 5px 20px rgba(223, 183, 108, 0.2);
+            transition: all 0.2s ease;
+            letter-spacing: 1px;
+        }
+        #startBtn:hover { 
+            transform: scale(1.05); 
+            box-shadow: 0 5px 25px rgba(223, 183, 108, 0.4);
+        }
+        #startBtn:active { transform: scale(0.98); }
+        #startBtn:disabled { background: #334155; color: #64748b; border-color: #475569; cursor: not-allowed; transform: none; box-shadow: none; }
+
+        /* 4. 黑金游戏沙盘 */
+        .game-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            width: 440px;
+            margin: 0 auto;
+            background: rgba(223, 183, 108, 0.03);
+            padding: 30px;
+            border-radius: 32px;
+            border: 1px solid rgba(223, 183, 108, 0.15);
+            box-shadow: inset 0 4px 20px rgba(0,0,0,0.9), 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        /* 5. 纯金镶边的奢华地鼠深坑 */
+        .hole {
+            width: 110px;
+            height: 110px;
+            background: #111111;
+            border-radius: 50%;
+            position: relative;
+            cursor: pointer;
+            border: 2px solid #9a7432;
+            box-shadow: inset 0 10px 20px rgba(0,0,0,1), 0 4px 10px rgba(223,183,108,0.1);
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
+        .hole:hover {
+            border-color: #fcd34d;
+            box-shadow: inset 0 10px 20px rgba(0,0,0,1), 0 0 12px rgba(252,211,77,0.2);
+        }
+
+        /* 6. 钻出来的金鼠：变成了一只尊贵的金仓鼠/金鼠 */
+        .hole.has-mole::after {
+            content: "🐹"; 
+            font-size: 60px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            filter: drop-shadow(0 0 8px #fcd34d); /* 让仓鼠带有一圈高贵的金色光芒 */
+            animation: popUp 0.12s ease-out forwards;
+        }
+
+        @keyframes popUp {
+            0% { top: 120%; }
+            100% { top: 50%; }
+        }
+        /* ---------------- 手机端专属响应式样式 ---------------- */
+@media (max-width: 600px) {
+    /* 1. 手机屏幕小，把大标题字变小，间距缩短 */
+    h2 {
+        font-size: 24px !important;
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* 2. 让计分板在手机上更紧凑，字变小 */
+    .score-board {
+        font-size: 15px !important;
+        padding: 8px 15px !important;
+        border-radius: 20px !important;
+    }
+
+    /* 3. 让开始按钮在手机上稍微缩小一点 */
+    #startBtn {
+        margin: 15px auto !important;
+        padding: 10px 30px !important;
+        font-size: 16px !important;
+    }
+
+    /* 4. 关键：让原本 440px 宽的游戏沙盘在手机上自动缩放，防止超出屏幕 */
+    .game-container {
+        width: 90% !important;
+        max-width: 360px !important;
+        gap: 10px !important;
+        padding: 10px !important;
+    }
+}
+    </style>
+</head>
+<body>
+
+   <h2>🔨 疯狂打地鼠小游戏</h2>
+    
+    <div class="score-board">
+        <span>得分：<b id="scoreDisplay">0</b> 分</span>
+       
+<!-- 添加下面这行 -->
+<div>历史最高分: <span id="high-score">0</span></div>
+        <span style="margin-left: 20px;">剩余时间：<b id="timeDisplay">30</b> 秒</span>
+    </div>
+
+    <button id="startBtn" onclick="startGame()">开始游戏</button>
+
+    <!-- 经典的九宫格地鼠洞阵型 -->
+    <div class="game-container">
+        <div class="hole" onclick="hitMole(1)" id="hole1"></div>
+        <div class="hole" onclick="hitMole(2)" id="hole2"></div>
+        <div class="hole" onclick="hitMole(3)" id="hole3"></div>
+        <div class="hole" onclick="hitMole(4)" id="hole4"></div>
+        <div class="hole" onclick="hitMole(5)" id="hole5"></div>
+        <div class="hole" onclick="hitMole(6)" id="hole6"></div>
+        <div class="hole" onclick="hitMole(7)" id="hole7"></div>
+        <div class="hole" onclick="hitMole(8)" id="hole8"></div>
+        <div class="hole" onclick="hitMole(9)" id="hole9"></div>
+    </div>
+
+    <script>
+         // 1. 悄悄准备几个游戏必需的“储物箱”
+        let score = 0;             // 记录玩家打中了多少只地鼠
+        let timeLeft = 30;         // 游戏剩余时间
+        let currentHoleIndex = 0;  // 当前地鼠正钻在几号洞里
+        let moleTimerId = null;    // 让地鼠钻出来的闹钟开关
+        let countdownTimerId = null; // 倒计时秒数的闹钟开关
+        let isGameRunning = false; // 记录游戏当前是开始还是结束
+
+        // 2. 点击“开始游戏”按钮时触发的机关
+        function startGame() {
+            if (isGameRunning) return; // 如果游戏正在运行，连点按钮无效
+            isGameRunning = true;
+            
+            score = 0;
+            timeLeft = 30;
+            document.getElementById("scoreDisplay").innerText = score;
+            document.getElementById("timeDisplay").innerText = timeLeft;
+            document.getElementById("startBtn").disabled = true; // 让开始按钮暂时失效
+
+            // 机关 A：开启时间倒计时闹钟，每 1 秒执行一次
+            countdownTimerId = setInterval(function() {
+                timeLeft = timeLeft - 1;
+                document.getElementById("timeDisplay").innerText = timeLeft;
+                
+                // 时间到了，游戏结束
+                if (timeLeft <= 0) {
+                    endGame();
+                }
+            }, 1000);
+
+            // 机关 B：开启地鼠乱钻闹钟，每 0.8 秒（800毫秒）让地鼠换个洞钻出来
+            moleTimerId = setInterval(showMole, 800);
+            
+            showMole(); // 立刻先让第一只地鼠钻出来
+        }
+
+        // 3. 让地鼠钻出来的具体方法
+        function showMole() {
+            // 先把上一只还在外面的地鼠藏回洞里
+            if (currentHoleIndex !== 0) {
+                let activeHole = document.getElementById("hole" + currentHoleIndex);
+                if (activeHole) activeHole.classList.remove("has-mole");
+            }
+
+            // 随机生成一个 1 到 9 之间的整数，决定新地鼠钻进几号洞
+            currentHoleIndex = Math.floor(Math.random() * 9) + 1;
+            
+            // 让新洞口长出地鼠（给它贴一个叫 has-mole 的标签，样式里会用它把地鼠显示出来）
+            let newHole = document.getElementById("hole" + currentHoleIndex);
+            if (newHole) newHole.classList.add("has-mole");
+        }
+
+        // 4. 玩家用锤子砸中地鼠时触发的逻辑
+        function hitMole(holeNumber) {
+        hitSound.currentTime = 0;
+hitSound.play();
+            // 如果游戏根本没开始，或者你砸的不是地鼠钻出来的那个洞，砸了也没用
+            if (!isGameRunning || holeNumber !== currentHoleIndex) return;
+
+            // 砸中了！分数加 1 并更新到前台
+            score = score + 1;
+            document.getElementById("scoreDisplay").innerText = score;
+
+            // 被砸中的地鼠立刻痛得缩回洞里，防止重复狂砸同一只
+            let hittedHole = document.getElementById("hole" + currentHoleIndex);
+            if (hittedHole) hittedHole.classList.remove("has-mole");
+            currentHoleIndex = 0; // 重置当前洞口，等待下一个地鼠钻出
+        }
+
+        // 5. 游戏时间到了，执行收尾和清场
+         // --- 新增：读取并显示历史最高分 ---
+        let highScore = localStorage.getItem('whackHighScore') || 0;
+        // 创建一个用于显示最高分的区域并塞到游戏界面里（如果你HTML里没写，这行会自动在网页上加个显示）
+        if (!document.getElementById('highScoreDisplay')) {
+            let hsDiv = document.createElement('div');
+            hsDiv.id = 'highScoreDisplay';
+            hsDiv.innerHTML = '历史最高分: <span id="high-score" style="color: gold; font-weight: bold;">' + highScore + '</span>';
+            document.querySelector('.score-board').appendChild(hsDiv);
+        }
+        function endGame() {
+        const hitSound = new Audio('hit.mp3');
+            isGameRunning = false;
+            clearInterval(countdownTimerId); // 关掉倒计时闹钟
+            clearInterval(moleTimerId);      // 关掉地鼠冒头闹钟
+            
+            // --- 新增：判断并保存最高分 ---
+        if (score > highScore) {
+            highScore = score;
+            document.getElementById('high-score').textContent = highScore;
+            localStorage.setItem('whackHighScore', highScore);
+            setTimeout(function() {
+                alert("🎉 绝了！你打破了历史最高分纪录！");
+            }, 300);
+        }
+            // 把最后留在外面的地鼠藏起来
+            if (currentHoleIndex !== 0) {
+                let lastHole = document.getElementById("hole" + currentHoleIndex);
+                if (lastHole) lastHole.classList.remove("has-mole");
+            }
+            
+            document.getElementById("startBtn").disabled = false; // 让开始按钮恢复可用
+            alert("⏰ 游戏时间到！你的最终得分是：" + score + " 分！");
+        }
+    </script>
+</body>
+</html>

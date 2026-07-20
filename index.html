@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的简易加法计算器</title>
+    <style>
+        /* 1. 把整个背景变成柔和的浅灰色，让页面居中 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        /* 2. 准备一个像卡片一样的精美容器 */
+        .calculator-box {
+            background-color: white;
+            display: inline-block;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 3. 输入框和下拉菜单变好看 */
+        input, select {
+            width: 100px;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            outline: none;
+            text-align: center;
+            margin: 5px;
+        }
+
+        /* 4. 让输入框选中时边框变色 */
+        input:focus, select:focus {
+            border-color: #4caf50;
+        }
+
+        /* 5. 按钮换衣服：变成好看的绿色和红色 */
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 10px 5px;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+        /* 鼠标放上去时，按钮微微变大 */
+        button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        /* 鼠标按下去的那一瞬间，按钮微微缩小 */
+        button:active {
+            transform: scale(0.98);
+        }
+        
+        /* 计算按钮用绿色 */
+        button[onclick="startCalculate()"] {
+            background-color: #4caf50;
+            color: white;
+        }
+        /* 清空按钮用灰色 */
+        button[onclick="clearAll()"] {
+            background-color: #e0e0e0;
+            color: #333;
+        }
+
+        /* 6. 结果文字放大 */
+        #result {
+            font-size: 28px;
+            color: #4caf50;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>数字加法器 🧮</h2>
+    
+    <div class="calculator-box">
+    <!-- 输入框1 -->
+    <input type="number" id="num1" placeholder="数字 1"> 
+    
+   <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="pow">² (平方)</option>
+            <option value="percent">% (百分比)</option>
+        </select>
+    <!-- 输入框2 -->
+    <input type="number" id="num2" placeholder="数字 2"> 
+    
+    <!-- 点击按钮触发计算 -->
+    <button onclick="startCalculate()">计算结果</button>
+    <button onclick="clearAll()">清空</button>
+
+    <p>结果是：<span id="result">0</span></p>
+
+    </div>
+    <script>
+        // 这里是你的核心 JavaScript 逻辑
+        function startCalculate() {
+            // 1. 找到页面上的两个输入框，并拿到里面输入的数字
+            let text1 = document.getElementById("num1").value;
+            let text2 = document.getElementById("num2").value;
+
+          // 2. 把文字转换成真正的数字
+        let n1 = Number(text1);
+        let n2 = Number(text2);
+
+        // 3. 获取用户选择的运算符
+        let op = document.getElementById("operator").value;
+        let sum = 0;
+
+        // 根据选择的符号来计算
+        if (op === "+") {
+            sum = n1 + n2;
+        } else if (op === "-") {
+            sum = n1 - n2;
+        } else if (op === "*") {
+            sum = n1 * n2;
+        } else if (op === "/") {
+            sum = n1 / n2;
+            } else if (op === "pow") {
+            sum = n1 * n1;
+        } else if (op === "percent") {
+            sum = (n1 / n2) * 100 + "%"; // 👈 百分比加工：算数字1占数字2的百分之几
+        }
+
+            // 4. 把计算出来的值，塞回到页面显示结果的地方
+            document.getElementById("result").innerText = sum;
+           } // 这是第一个函数的结束大括号
+
+    // 下面是全新的清空函数
+    function clearAll() {
+        document.getElementById("num1").value = "";
+        document.getElementById("num2").value = "";
+        document.getElementById("result").innerText = "0";
+    }
+
+</script>
+
+</body>
+</html>

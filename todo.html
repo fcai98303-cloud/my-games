@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的今日待办清单</title>
+    <style>
+    /* 1. 深邃电竞感暗色渐变大背景 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #090d16 0%, #111827 100%);
+            text-align: center;
+            color: white;
+            margin-top: 80px;
+        }
+
+        h2 {
+            font-size: 32px;
+            color: #6366f1;
+            text-shadow: 0 0 10px rgba(99, 102, 241, 0.4);
+        }
+
+        /* 2. 磨砂玻璃质感的任务机悬浮卡片 */
+        .todo-box {
+            background-color: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            display: inline-block;
+            padding: 35px 40px;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+            width: 400px;
+            text-align: left; /* 任务清单里让文字靠左对齐更美观 */
+            margin-top: 20px;
+        }
+
+        /* 3. 输入栏对齐排列 */
+        .input-section {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 12px;
+            font-size: 16px;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            background: rgba(0, 0, 0, 0.3);
+            color: white;
+            border-radius: 10px;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+        input[type="text"]:focus {
+            border-color: #6366f1;
+            box-shadow: 0 0 15px rgba(99, 102, 241, 0.3);
+        }
+
+        /* 4. 添加大按钮 */
+        .input-section button {
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
+            color: white;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+        .input-section button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(99, 102, 241, 0.4);
+        }
+
+        /* 5. 任务大筐子（列表容器）去掉前面的黑色小圆点 */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* 6. 每一个添加出来的 <li> 任务小长条行样式 */
+        li {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 12px 15px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            animation: fadeIn 0.2s ease-out; /* 出来时带点平滑淡入效果 */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* 任务行的复选框尺寸放大一点 */
+        li input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            margin-right: 12px;
+            accent-color: #6366f1; /* 复选框勾选时的颜色 */
+        }
+
+        /* 任务文字部分自动撑满 */
+        li span {
+            flex: 1;
+            font-size: 16px;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        /* 7. 红色精致小删除按钮 */
+        .delete-btn {
+            background: rgba(244, 63, 94, 0.15);
+            color: #f43f5e;
+            border: 1px solid rgba(244, 63, 94, 0.3);
+            padding: 6px 12px;
+            font-size: 14px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .delete-btn:hover {
+            background: #f43f5e;
+            color: white;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h2>📝 今日任务清单</h2>
+    
+    <div class="todo-box">
+        <!-- 1. 输入新任务的输入框和添加按钮 -->
+        <div class="input-section">
+            <input type="text" id="taskInput" placeholder="写下你今天要做的事情...">
+            <button onclick="addTask()">添加</button>
+        </div>
+
+        <!-- 2. 盛放任务列表的空筐子（专业术语叫无序列表 <ul>） -->
+        <!-- 以后用户每点一次添加，后台大脑就会在这个筐子里自动塞进一个 <li> 任务行 -->
+        <ul id="taskList"></ul>
+    </div>
+
+    <script>
+       function addTask() {
+            let inputElement = document.getElementById("taskInput");
+            let taskText = inputElement.value.trim();
+
+            if (taskText === "") {
+                alert("请先写点什么，再添加任务哦！");
+                return;
+            }
+
+            let li = document.createElement("li");
+            li.innerHTML = `
+                <input type="checkbox" onchange="toggleTask(this)">
+                <span>${taskText}</span>
+                <button class="delete-btn" onclick="deleteTask(this)">删除</button>
+            `;
+            document.getElementById("taskList").appendChild(li);
+            inputElement.value = "";
+        }
+
+        function toggleTask(checkbox) {
+            let span = checkbox.nextElementSibling;
+            if (checkbox.checked) {
+                span.style.textDecoration = "line-through";
+                span.style.color = "#94a3b8";
+            } else {
+                span.style.textDecoration = "none";
+                span.style.color = "white";
+            }
+        }
+
+        function deleteTask(button) {
+            let li = button.parentElement;
+            li.remove();
+        }
+    </script>
+</body>
+</html>
